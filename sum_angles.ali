@@ -1,0 +1,71 @@
+V "GNAT Lib v10"
+M P W=b
+P SS ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV SPARK_05
+
+U sum_angles%b		sum_angles.adb		1dd2043c NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_uns%s	s-imguns.adb		s-imguns.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.unsigned_types%s  s-unstyp.ads		s-unstyp.ali
+Z system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20230707070819 76789da1 ada%s
+D a-comlin.ads		20230707070819 4aa66568 ada.command_line%s
+D a-except.ads		20230707070819 a7106115 ada.exceptions%s
+D a-ioexce.ads		20230707070819 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20230707070819 119b8fb3 ada.streams%s
+D a-tags.ads		20230707070819 491b781d ada.tags%s
+D a-textio.ads		20230707070819 aef4d56d ada.text_io%s
+D a-unccon.ads		20230707070819 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20230707070819 5ab55268 interfaces%s
+D i-cstrea.ads		20230707070819 e53d8b8e interfaces.c_streams%s
+D sum_angles.adb	20250116221921 f980b439 sum_angles%b
+D system.ads		20230707070819 4635ec04 system%s
+D s-conca2.ads		20230707070819 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20230707070819 0ebbdb71 system.crtl%s
+D s-exctab.ads		20230707070819 54135002 system.exception_table%s
+D s-ficobl.ads		20230707070819 078245e4 system.file_control_block%s
+D s-imguns.ads		20230707070819 9ff43cf7 system.img_uns%s
+D s-parame.ads		20230707070819 48ec542b system.parameters%s
+D s-secsta.ads		20230707070819 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20230707070819 a7318a92 system.soft_links%s
+D s-stache.ads		20230707070819 a37c21ec system.stack_checking%s
+D s-stalib.ads		20230707070819 09bd3940 system.standard_library%s
+D s-stoele.ads		20230707070819 2dc34a04 system.storage_elements%s
+D s-traent.ads		20230707070819 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20230707070819 34867c83 system.unsigned_types%s
+D s-valint.ads		20230707070819 b5ff6963 system.val_int%s
+D s-wchcon.ads		20230707070819 1b7d22d2 system.wch_con%s
+G a e
+G c Z b b [sum_angles standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r28 2r6 2r23
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 11|1w10 1r32
+39V13*Argument_Count{natural} 11|22s34
+52V13*Argument{string} 11|26s59
+X 7 a-textio.ads
+57K13*Text_IO 727e16 11|2w10 2r27
+508U14*Put_Line 11|28s17
+X 11 sum_angles.adb
+4U11*Sum_Angles 4b11 29l13 29t23
+7N9 DEGREES_MAX 8r29
+8M14 Degrees 9r57 11r58 13r23 26r36
+9A14 Degrees_List(8M14)<integer> 11r37 22r16
+11V18 Add_Angles{8M14} 11b18 11>30 20l13 20t23 28s36
+11a30 List{9A14} 15r26 16r38
+13m17 sum{8M14} 16m25 16r32 19r24
+15i21 I{integer} 16r44
+22a9 List{9A14} 25r26 26m25 28r48
+25i21 I{integer} 26r30 26r69
+
